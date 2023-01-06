@@ -1,0 +1,134 @@
+.contatos{
+    background-color: rgb(245, 203, 237);
+    display: flex;
+    justify-content: center;
+}
+.links-title{
+    color:#171616;
+    text-align: center;
+    font-family: 'Archivo Black';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.comercial-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .comercial-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+
+}
+
+.comercial-links a{
+    background-color: rgb(143 19 85);
+    text-decoration: none;
+    color: white;
+    border: 2px solid #311430;
+    border-radius: 10px;
+    width: 280px;
+    padding: 10px 0;
+    margin: 15px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .comercial-links a{
+       margin-bottom: 10px;
+    }
+  }
+
+.comercial-links a:hover{
+    background-color: #8d6c8b;
+    border: 2px solid #ded5d2;
+    
+}
+
+.comercial-links svg{
+    fill: white;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.imgkayete{
+    display: flex;
+   
+
+
+}
+
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.social-links a{
+    background-color:rgb(143 19 85);
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    border: 2px solid #311430;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 850px) {
+    .social-links a{
+       margin-bottom: 10px;
+    }
+  }
+
+.social-links a:hover{
+    background-color: #8d6c8b;
+    border: 2px solid #ded5d2;
+}
+
+.social-links img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.designed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designed p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo-link{
+    transition: 0.5s;
+    transform: scale(1);
+    margin-bottom: 20px;
+}
+
+.logo-link:hover{
+    transform: scale(1.05);
+}
+.logo-idk{
+    width: 150px;
+}

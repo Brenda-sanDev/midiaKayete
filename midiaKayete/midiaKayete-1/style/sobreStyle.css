@@ -1,0 +1,72 @@
+/*-----------SOBRE KKAYETE--------------*/
+.sobre{
+    height: 60vh;
+}
+.tituloSobre{
+    margin-top: 3vh;
+    display: flex;
+    margin-left: 20vh;
+    font-family: 'Barlow Semi Condensed';
+    color: #282729;
+    letter-spacing: 3px;
+}
+.conjutosobre{
+    display: flex;
+}
+.sobre-text{
+    background: linear-gradient(#b771a8,#d918af );
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+   
+    
+}
+.sobre-text p{
+    font-family: 'Barlow Semi Condensed';
+    color: #373537;
+    letter-spacing: 1px;
+}
+.sobre-text p b{
+    color: #4a163f;
+}
+.imgSobre img{
+    width: 64vh;
+   
+   
+}
+/*-----------TRAGETORIA KKAYETE--------------*/
+.tragetoria{
+    background: linear-gradient( transparent );
+    height: 45vh;
+       
+}
+.tituloTragetoria{
+    display: flex;
+    margin-left: 13vh;
+    font-family: 'Barlow Semi Condensed';
+    color: #151516;
+    letter-spacing: 3px;
+}
+.sobre-tragetoria{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+ 
+    width: 555px;
+}
+.sobre-tragetoria p{
+    font-family: 'Barlow Semi Condensed';
+    color: #373537;
+    letter-spacing: 1px;
+}
+.sobre-tragetoria p b{
+    color: #4a163f;
+}
+
+
+
