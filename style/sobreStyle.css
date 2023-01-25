@@ -1,0 +1,45 @@
+/*-----------SOBRE KKAYETE--------------*/
+.tituloSobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    font-family: 'Barlow Semi Condensed';
+    color: #282729;
+    letter-spacing: 3px;
+}
+.conjutosobre{
+    display: flex;
+}
+.sobre-text{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.sobre-text p{
+    font-family: 'Barlow Semi Condensed';
+    color: #373537;
+    letter-spacing: 1px;
+}
+.sobre-text p b{
+    color: #4a163f;
+}
+.imgSobre img{
+    width: 64vh;
+    margin-bottom: -8px;
+   
+   
+}
+
+/*-------RESPONSIVE------*/
+@media only screen and (max-width: 600px){
+    .tituloSobre{
+        margin-top: 5vh;
+        display: grid;
+        margin-left: 2vh;
+     
+    }
+}

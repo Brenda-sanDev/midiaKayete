@@ -1,0 +1,76 @@
+
+.mockup{
+    background-image: url(./../img/BG\ \(1\).png); 
+}
+
+.conjutoRedes{
+    display: flex;
+    justify-content: right;
+}
+
+
+.imgKayete{
+    width: 47vh; 
+    margin-top: 17vh; 
+    margin-left: 10vh;
+    margin-bottom: -13vh;
+   
+}
+
+.redesImg{
+    width: 70vh;
+    margin-top: 12vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(223, 238, 252);
+    margin-right: 10vh;
+
+}
+
+.informacaoInternet{
+    padding: 10px 0;
+    background-color: rgb(94, 9, 117);
+    margin-top: 5vh;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+    font-family:  'Montserrat', sans-serif;
+}
+.informacaoInternet b{
+    font-size: 40px;
+    color: #fff;  
+    font-weight: bolder;  
+}
+.informacaoInternet i{
+    font-size: 20px;
+    color: #fff;  
+    font-weight: bolder;
+}
+
+
+/*-------RESPONSIVE------*/
+/*-------RESPONSIVE------*/
+@media only screen and (max-width: 375px){
+    .redesImg{
+        width: 43vh;
+
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .conjutoRedes{
+        display: grid;
+        justify-content: center;
+    }
+    
+    .imgKayete{
+       display: none;   
+    }
+    
+}
+@media only screen and (max-width: 940px){
+    .imgKayete{
+        display: none;
+    }
+
+}

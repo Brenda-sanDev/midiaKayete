@@ -1,0 +1,150 @@
+.contatos{
+    background: linear-gradient(#ea258e, #9d3186, #813584, #6b3981);
+    display: flex;
+    justify-content: center;
+}
+
+.imgkayete{
+    display: flex;
+    width: 35%;
+}
+
+.links-title{
+    color:#171616;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.comercial-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family:  'Montserrat', sans-serif;
+}
+
+.comercial-links a{
+    background-color: #fff;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    border: 1px solid #4d3e4c;
+    border-radius: 10px;
+    width: 280px;
+    padding: 5px 0;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+
+.comercial-links a:hover{
+    background-color: #8d6c8b;
+    border: 1px solid #141414;
+    
+}
+
+.comercial-links svg{
+    fill: rgb(10, 10, 10);
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.social-links a{
+    background-color:#fff;
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    border: 1px solid #4d3e4c;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+.social-links a:hover{
+    background-color: #8d6c8b;
+    border: 1px solid #141414;
+}
+.social-links img{
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.designed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designed p{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo-link{
+    transition: 0.5s;
+    transform: scale(1);
+    margin-bottom: 20px;
+}
+
+.logo-link:hover{
+    transform: scale(1.05);
+}
+.logo-idk{
+    width: 150px;
+    margin-top: 10px;
+}
+
+
+/*---------RESPONSIVE---*/
+
+@media only screen and (max-width: 600px) {
+    .imgkayete{
+        display: none;
+    }
+    .links-title{
+        font-size: 17px;
+    }
+    .comercial-links a{
+        width: 210px;
+        padding: 6px 0;
+        font-size: 13px;
+    }
+    .social-links a{ 
+        width: 210px;
+        padding: 6px 0;
+        font-size: 14px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 940px){
+    .imgkayete{
+        display: none;
+    }
+
+}
+
